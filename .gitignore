@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+*.db-journal
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# SQLite Database (persisted in backend/database during execution)
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
